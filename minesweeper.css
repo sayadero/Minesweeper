@@ -1,0 +1,76 @@
+ul#Minesweeper {
+  padding: 0px;
+  width: fit-content;
+  background-color: gray;
+  border: 2px solid black;
+  margin: auto;
+}
+
+div#HeaderInfoDiv {
+  min-height: 100px;
+  text-align: center;
+}
+
+li {
+  display: -webkit-box;
+}
+
+h1, h2 {
+  display: inline-block;
+}
+
+ul#Minesweeper div {
+  border: 1px solid black;
+  height: 20px;
+  text-align: center;
+  width: 20px;
+  cursor: pointer;
+}
+
+ul#Minesweeper div.show {
+  background-color: darkgray;
+  border-color: rgb(64, 64, 64);
+  cursor: default;
+}
+
+ul#Minesweeper div.bomb {
+  display: flex;
+  cursor: default;
+}
+
+ul#Minesweeper div.hidden {
+  color: transparent;
+}
+
+i {
+  pointer-events: none;
+  align-items: center;
+  display: flex;
+  font-size: 8px;
+  margin: auto;
+}
+
+.warm1 {
+  color: green;
+}
+.warm2 {
+  color: blue;
+}
+.warm3 {
+  color: pink;
+}
+.warm4 {
+  color: red;
+}
+.warm5 {
+  color: skyblue;
+}
+.warm6 {
+  color: orange;
+}
+.warm7 {
+  color: brown;
+}
+.warm8 {
+  color: purple;
+}
