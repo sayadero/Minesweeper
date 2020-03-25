@@ -233,6 +233,7 @@ function handleCellClick(event) {
         minesweeper.openClick(clickPosition);
         break;
     }
+    minesweeper.checkWin();
     minesweeper.draw();
   }
 }
